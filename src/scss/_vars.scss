@@ -1,0 +1,34 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  --color-black: #000;
+  --color-black-2: #101010;
+  --color-black-3: #423D3D;
+  --color-white: #fff;
+  --color-accent: #FF4E00;
+  --color-secondary: #ADB2B4;
+  --color-secondary-2: #606060;
+  --color-secondary-3: #31333C;
+  --color-secondary-4: #D9D9D9;
+  --color-secondary-5: #6C6C6C;
+  --color-secondary-6: #C2C2C2;
+  --color-secondary-7: #F1F1F1;
+  --color-secondary-8: #BBBBBB;
+  --color-secondary-9: #F2EFED;
+  --color-secondary-10: #D6D2D2;
+  --color-secondary-11: #F4F4F4;
+  --color-secondary-12: #C7C7C7;
+  --color-secondary-13: #E3E3E3;
+  --color-tertiary: #25D366;
+  --color-tertiary-2: #00C22B;
+  --color-tertiary-3: #0DA000;
+
+  --color-green: #60B391;
+  --color-unvalidate: #DD333B;
+
+  --nav-width: 100%;
+
+  --header-height: 76px;
+
+  --color-button-default-active: #3C7CFC;
+}

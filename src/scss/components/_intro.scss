@@ -1,0 +1,52 @@
+
+.intro {
+
+    @include lg-min {
+        height: 100vh;
+        padding-top: calc(var(--header-height) + 100px);
+        padding-bottom: 124px;
+        max-height: 900px;
+        min-height: 820px;
+    }
+
+    @include lg-max {
+        padding: calc(var(--header-height) + 79px) 29px 100px;
+    }
+
+    @include md-max {
+        padding: calc(var(--header-height) + 38px) 0 80px;
+    }
+}
+
+.intro__block {
+    position: relative;
+    z-index: 1;
+}
+
+.intro__content {
+    max-width: 670px;
+}
+
+.intro__text {
+    line-height: 1.1429;
+}
+
+.intro__title {
+    @include md-min {
+        line-height: 1.35;
+    }
+
+    @include md-max {
+        line-height: 1.4286;
+    }
+}
+
+.intro__desc {
+    @include md-min {
+        line-height: 1.5556;
+    }
+
+    @include md-max {
+        line-height: 1.625;
+    }
+}

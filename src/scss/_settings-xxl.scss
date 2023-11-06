@@ -1,0 +1,130 @@
+@include xxl-min {
+
+    .p-xxl-abs {
+      position: absolute;
+    }
+    
+    .p-xxl-fix {
+      position: fixed;
+    }
+    
+    .p-xxl-rel {
+      position: relative;
+    }
+    
+    .p-xxl-sta {
+      position: static;
+    }
+    
+    .p-xxl-sti {
+      position: sticky;
+    }
+  
+    .w-xxl-fl {
+      width: 100%;
+    }
+  
+    @for $i from 0 to 101 {
+      .mrt-xxl-#{$i} {
+        margin-top: 1px * $i;
+      }
+      .mrt-xxl-#{$i}- {
+        margin-top: -1px * $i;
+      }
+      
+      .mrr-xxl-#{$i} {
+        margin-right: 1px * $i;
+      }
+      .mrr-xxl-#{$i}- {
+        margin-right: -1px * $i;
+      }
+    
+      .mrb-xxl-#{$i} {
+        margin-bottom: 1px * $i;
+      }
+      .mrb-xxl-#{$i}- {
+        margin-bottom: -1px * $i;
+      }
+    
+      .mrl-xxl-#{$i} {
+        margin-left: 1px * $i;
+      }
+      .mrl-xxl-#{$i}- {
+        margin-left: -1px * $i;
+      }
+    
+      .pdt-xxl-#{$i} {
+        padding-top: 1px * $i;
+      }
+      
+      .pdr-xxl-#{$i} {
+        padding-right: 1px * $i;
+      }
+    
+      .pdb-xxl-#{$i} {
+        padding-bottom: 1px * $i;
+      }
+    
+      .pdl-xxl-#{$i} {
+        padding-left: 1px * $i;
+      }
+    
+      .t-xxl-#{$i} {
+        top: 1px * $i;
+      }
+    
+      .t-xxl-#{$i}- {
+        top: -1px * $i;
+      }
+    
+      .r-xxl-#{$i} {
+        right: 1px * $i;
+      }
+    
+      .r-xxl-#{$i}- {
+        right: -1px * $i;
+      }
+    
+      .b-xxl-#{$i} {
+        bottom: 1px * $i;
+      }
+    
+      .b-xxl-#{$i}- {
+        bottom: 1px * $i;
+      }
+    
+      .l-xxl-#{$i} {
+        left: 1px * $i;
+      }
+    
+      .l-xxl-#{$i}- {
+        left: -1px * $i;
+      }
+    }
+    @for $i from 0 to 101 {
+      .brtlr-xxl-#{$i} {
+        border-top-left-radius: 1px * $i;
+      }
+  
+      .brtrr-xxl-#{$i} {
+        border-top-right-radius: 1px * $i;
+      }
+  
+      .brbrr-xxl-#{$i} {
+        border-bottom-right-radius: 1px * $i;
+      }
+  
+      .brblr-xxl-#{$i} {
+        border-bottom-left-radius: 1px * $i;
+      }
+  
+      .fts-xxl-#{$i} {
+        font-size: 1px * $i;
+      }
+    }
+  
+  
+    .mnh-xxl-46 {
+      min-height: 46px;
+    }
+  }

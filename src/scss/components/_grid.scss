@@ -1,0 +1,11 @@
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@include xl-min {
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+}

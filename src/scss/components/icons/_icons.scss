@@ -1,0 +1,136 @@
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: relative;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  [class^="icon-"],
+  [class*=" icon-"],
+  [class^="icon-"]::before,
+  [class*=" icon-"]::before {
+    display: block;
+  }
+  
+  [class^="icon-"]::before,
+  [class*=" icon-"]::before,
+  [class^="icon-"] [class^="path"]::before,
+  [class*=" icon-"] [class^="path"]::before {
+    color: inherit !important;
+  }
+
+  .icon-plus:before {
+    content: "\e919";
+  }
+  .icon-full:before {
+    content: "\e912";
+  }
+  .icon-minus:before {
+    content: "\e909";
+    color: #e3e3e3;
+  }
+  .icon-work-icon-2:before {
+    content: "\e90a";
+    color: #ff4e00;
+  }
+  .icon-hamburger:before {
+    content: "\e907";
+  }
+  .icon-arrow:before {
+    content: "\e900";
+    color: #25d366;
+  }
+  .icon-arrow-bottom:before {
+    content: "\e901";
+    color: #606060;
+  }
+  .icon-arrow-left:before {
+    content: "\e902";
+    color: #fff;
+  }
+  .icon-arrow-right:before {
+    content: "\e903";
+    color: #fff;
+  }
+  .icon-check:before {
+    content: "\e904";
+    color: #ff4e00;
+  }
+  .icon-close:before {
+    content: "\e905";
+  }
+  .icon-gift:before {
+    content: "\e906";
+    color: #d6d2d2;
+  }
+  .icon-loc:before {
+    content: "\e908";
+    color: #ff4e00;
+  }
+  .icon-tel:before {
+    content: "\e90b";
+    color: #fff;
+  }
+  .icon-tel-2:before {
+    content: "\e90c";
+    color: #ff4e00;
+  }
+  .icon-telegram:before {
+    content: "\e90d";
+    color: #fff;
+  }
+  .icon-viber:before {
+    content: "\e90e";
+    color: #64605f;
+  }
+  .icon-work-icon-1:before {
+    content: "\e911";
+    color: #ff4e00;
+  }
+  .icon-work-icon-3:before {
+    content: "\e913";
+    color: #ff4e00;
+  }
+  .icon-work-icon-4:before {
+    content: "\e914";
+    color: #ff4e00;
+  }
+  .icon-work-icon-5:before {
+    content: "\e915";
+    color: #ff4e00;
+  }
+  .icon-work-icon-6:before {
+    content: "\e916";
+    color: #ff4e00;
+  }
+  .icon-work-icon-7:before {
+    content: "\e917";
+    color: #ff4e00;
+  }
+  .icon-work-icon-8:before {
+    content: "\e918";
+    color: #ff4e00;
+  }
+
+
+
+  .icon-whatsapp .path1:before {
+    content: "\e90f";
+    color: rgb(255, 255, 255);
+  }
+  .icon-whatsapp .path2:before {
+    content: "\e910";
+    color: rgb(37, 211, 102);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
